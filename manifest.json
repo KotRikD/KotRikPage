@@ -1,0 +1,41 @@
+{
+    "short_name": "KotRik",
+    "name": "KotRik Homepage",
+    "icons": [
+      {
+        "src": "icons/res/drawable-mdpi/ic_launcher.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "icons/res/drawable-hdpi/ic_launcher.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "icons/res/drawable-xhdpi/ic_launcher.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "icons/res/drawable-xxhdpi/ic_launcher.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "icons/res/drawable-xxxhdpi/ic_launcher.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/web_hi_res_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "#292b2c",
+    "theme_color": "#292b2c",
+    "display": "standalone",
+    "orientation": "portrait"
+}

@@ -1,0 +1,1 @@
+# KotRikPage v5 - 5 версия личного сайта KotRik'a

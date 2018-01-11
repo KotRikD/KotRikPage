@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: underline;
+    color: white;
+}
+body {
+    margin: 0;
+}
+.for-inline-nickname {
+    margin: 0;
+    display: inline;
+}
+.indigo {
+    color: #3F51B5;
+}
+.shiki {
+    color: #E91E63;
+}
+.vue-1 {
+    color: #41b883;
+}
+.vue-2 {
+    color: #35495e;
+}
+.vk {
+    color: #4c75a3;
+}
+.telegram {
+    color: #0088cc;
+}
+.php {
+    color: #777bb4;
+}
+.discord {
+    color: #7289DA;
+}
+.orange {
+    color: orange;
+}
+.blue {
+    color: aqua;
+}
+.j {
+    color: #e76f00;
+}
+.yellow {
+    color: yellow;
+}
+.pink {
+    color: pink ;
+}
+.green {
+    color: aquamarine;
+}
+.hide {
+    display: none;
+}
+.welcome {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.color {
+    background: transparent url(https://www.walldevil.com/wallpapers/w03/966976-anime-pixiv-vocaloid.jpg) no-repeat center center /cover;
+}
+.projects {
+    background-color:rgba(0, 0, 0, 0.8);
+    /*background-color: #212121; */
+    width: 100%;
+    height: 100%;
+}
+.console-emulating {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+.pulse-button {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: none;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 0 0 #e3e3e3;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  }
+  .pulse-button:hover 
+  {
+    -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+  }
+  
+  @-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+  @-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+  @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+  @keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+
+  .blink {
+    -webkit-animation: blink1 3s linear infinite;
+    animation: blink1 3s linear infinite;
+  }
+  @-webkit-keyframes blink1 {
+    0% { color: rgba(34, 34, 34, 1); }
+    50% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 1); }
+  }
+  @keyframes blink1 {
+    0% { color: rgba(34, 34, 34, 1); }
+    50% { color: rgba(34, 34, 34, 0); }
+    100% { color: rgba(34, 34, 34, 1); }
+  }
